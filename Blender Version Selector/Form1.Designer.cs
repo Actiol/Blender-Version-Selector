@@ -40,6 +40,7 @@
             // ComboBox1
             // 
             this.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.ComboBox1.Font = new System.Drawing.Font("Rubik", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ComboBox1.FormattingEnabled = true;
             this.ComboBox1.Location = new System.Drawing.Point(13, 12);
             this.ComboBox1.Name = "ComboBox1";
@@ -48,6 +49,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Rubik", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(59, 62);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -59,6 +61,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Rubik", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 41);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(13, 13);
@@ -67,6 +70,7 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Rubik", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(12, 62);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(41, 23);
@@ -77,6 +81,7 @@
             // 
             // buttonall
             // 
+            this.buttonall.Font = new System.Drawing.Font("Rubik", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonall.Location = new System.Drawing.Point(76, 91);
             this.buttonall.Name = "buttonall";
             this.buttonall.Size = new System.Drawing.Size(58, 23);
@@ -87,6 +92,7 @@
             // 
             // buttoncurrent
             // 
+            this.buttoncurrent.Font = new System.Drawing.Font("Rubik", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttoncurrent.Location = new System.Drawing.Point(12, 91);
             this.buttoncurrent.Name = "buttoncurrent";
             this.buttoncurrent.Size = new System.Drawing.Size(58, 23);
@@ -106,6 +112,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ComboBox1);
             this.Cursor = System.Windows.Forms.Cursors.Cross;
+            this.Font = new System.Drawing.Font("Rubik", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
