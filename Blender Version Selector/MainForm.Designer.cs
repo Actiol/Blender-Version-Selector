@@ -101,7 +101,7 @@
             this.buttoncurrent.UseVisualStyleBackColor = true;
             this.buttoncurrent.Click += new System.EventHandler(this.buttoncurrent_Click);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(146, 123);
@@ -117,7 +117,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Version Selector";
             this.Load += new System.EventHandler(this.Form1_Load);

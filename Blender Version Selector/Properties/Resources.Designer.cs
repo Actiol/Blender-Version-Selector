@@ -59,5 +59,15 @@ namespace Blender_Version_Selector.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Rubik_Regular {
+            get {
+                object obj = ResourceManager.GetObject("Rubik_Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
     }
 }
